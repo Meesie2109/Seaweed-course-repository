@@ -1,0 +1,418 @@
+:root {
+  --custom--padding-space: 17, 5px;
+  --custom--min-margin-space: -17, 5px;
+
+  --custom--secondary-background-color: #e8d6cb;
+}
+
+/* Main css */
+.site .grid-row {
+  display: flex;
+  max-width: 1210px; /* 1210 - 35 * 2 = 1140 */
+  padding: 0 35px;
+  margin: auto;
+}
+
+.site .grid-row-narrow {
+  display: flex;
+  max-width: 800px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: auto;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5,
+.col-2-5,
+.col-sm-2-5,
+.col-md-2-5,
+.col-lg-2-5,
+.col-3-5,
+.col-sm-3-5,
+.col-md-3-5,
+.col-lg-3-5,
+.col-4-5,
+.col-sm-4-5,
+.col-md-4-5,
+.col-lg-4-5 {
+  padding-right: var(--custom--padding-space) !important;
+  padding-left: var(--custom--padding-space) !important;
+}
+
+.row {
+  margin-right: var(--custom--min-margin-space) !important;
+  margin-left: var(--custom--min-margin-space) !important;
+}
+
+.banner_image {
+  max-height: 720px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0 0 35px;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0 0 35px;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+p:not(:last-child) {
+  margin: 0 0 10px;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+#content > div:nth-child(odd) {
+  margin-top: 40px;
+}
+
+#bannerR {
+  margin-top: 0px;
+}
+
+/* Header css */
+
+.main-header {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.main-header .logo {
+  max-height: 70px;
+}
+
+.main-header > .inner-header {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-header > .inner-header .menu {
+  justify-content: end;
+}
+
+.main-navigation li {
+  margin-right: 20px;
+}
+.main-navigation a {
+  padding: 0;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.header-icons svg {
+  margin-left: 20px;
+}
+
+.nav-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer css */
+
+.main-footer {
+  padding: 100px 0;
+  background-color: var(--custom--secondary-background-color);
+}
+
+.inner-footer > * {
+  display: inline-block;
+  width: calc(99% / 3);
+}
+
+.main-footer .nav-lists {
+  display: flex;
+}
+
+.main-footer .nav-lists ul:first-child {
+  margin-right: 70px;
+}
+
+.footer-kop {
+  margin: 0 0 15px;
+}
+
+.main-footer ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.main-footer li::marker {
+  font-size: 0;
+}
+
+.main-footer .footer-socials svg {
+  height: 36px;
+}
+
+.main-footer .footer-socials .social-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 35px;
+}
+
+/* Copyright */
+
+.footer-copyright {
+  margin-top: 100px !important;
+}
+
+.footer-copyright p {
+  font-size: 12px;
+}
+
+/* seaweed-section */
+.seaweed-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 70px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.seaweed{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+/* seaweed-box-section */
+.seaweed-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.seaweed-header div{
+  width: 50%;
+}
+
+.seaweed-header div a{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-top: 40px !important;
+  float: right;
+}
+
+.seaweed-tekst{
+  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+/* seaweed-recepies */
+.seaweed-recepies-layout{
+  background-color: #E8D6CB;
+  width: 100%;
+  height: 75vh;
+}
+
+.seaweed-recepies{
+  margin: 70px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.seaweed-reciepes-title{
+  font-size: 32px;
+  font-weight: 800;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.seaweed-recepie-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.seaweed-recepie-sections {
+  width: 30%;
+  height: 50vh;
+  outline: 1px solid black;
+}
+
+.seaweed-recepie-sections img{
+  width: 100%;
+  height: 12vw;
+  object-fit: cover;
+}
+
+/*seaweed-blog-section */
+.seaweed-blog-layout {
+  margin-top: -40px;
+  width: 100%;
+  height: 70vh;
+}
+
+.seaweed-blog-section h3 {
+  padding: 20px;
+  margin-bottom: -20px;
+}
+
+.seaweed-blog-section p {
+  padding: 20px;
+  margin-top: 0px;
+}
+
+/* Listing */
+
+.listing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -25px;
+}
+
+.listing-item {
+  width: calc(100% / 3);
+  padding: calc(35px / 2);
+}
+
+/* Single page seaweed */
+
+.seaweed-content {
+  max-width: 830px;
+  margin-right: 50px;
+}
+
+.thumbnail-container {
+  position: relative;
+  max-width: 260px;
+}
+
+.thumbnail-container .background-container {
+  margin-top: 50px;
+  width: 100%;
+  background: #9B425E;
+  box-shadow: 4px 10px 30px #681A30, inset 0px 0px 50px 10px rgba(104, 26, 48, 0.5);
+}
+
+.thumbnail-container img {
+  margin-top: -50px;
+  padding: 0 30px 30px;
+}
+
+.seaweed-recipe-listing-item {
+  width: calc(100% / 2);
+  padding: calc(50px / 2);
+}
+
+.seaweed-recipe-listing-item .image-container img {
+  width: 100%;
+  height: 215px;
+}
+.seaweed-recipe-listing-item .content-container {
+  background-color: #E8D6CB;
+  padding: 20px;
+}

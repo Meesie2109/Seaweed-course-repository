@@ -1,0 +1,28 @@
+/*
+    Stylesheet for all the html tags related to the index.php file
+*/
+
+.index-image-header{
+    margin-bottom: 30px;
+}
+
+.index-image-header img{
+    height: 55vh;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -15vh;
+}
+
+.index-image-header div{
+    margin: auto;
+    max-width: 956px;
+    margin-bottom: 10vh;
+}
+
+.index-image-header-title{
+    margin-top: -10vh;
+    color: white;
+    font-weight: 800;
+    max-width: 1000px;
+    font-size: 35px;
+}

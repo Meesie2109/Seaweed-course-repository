@@ -1,0 +1,109 @@
+/* Global Styles */
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 1210px;
+    height: 250px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+}
+
+.container-card{
+    padding: 10px;
+}
+
+.container-card div{
+    outline: 1px solid black;
+}
+
+/* Start of Ipad styles section */
+@media only screen and (max-device-width : 1024px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container{
+        max-width: 920px;
+    }
+}
+
+/* End of Global styles */
+
+.recipes-background{
+    background-color:#E8D6CB;
+    width: 100%;
+}
+
+.recipes-text-wrapper{
+    margin: 15px;
+    border: none;
+}
+
+/* Seaweed-box-section styles */
+
+.text-area{
+    background-color: #E8D6CB;
+    padding: 40px;
+}
+
+.seaweed-button {
+    width: 100%;
+    margin-top: 0;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+/* Start of Ipad styles section */
+@media only screen and (max-device-width : 1024px) {
+    .container .img-area img {
+        width: 100%;
+    }
+    
+    .img-area {
+        margin: auto 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+    
+    .text-area {
+        width: 100%;
+    }
+}
+
+/* End of Seaweed-box-section */
+
+
+/* Start of recepten section */
+
+
+
+/* End of recepten section */
+
+
+
+
+/* template for diffrent sizes */
+
+/* Start of smartphone section */
+@media only screen and (max-width : 320px) {}
+
+/* Start of landscape version phone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+/* Start of section */
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {}
+
+/* Start of Ipad styles section */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
