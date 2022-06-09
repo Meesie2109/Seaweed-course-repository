@@ -16,3 +16,4 @@ jobs:
           server: 160094.ao-alkmaar.nl
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
+          server-dir: /wordpress/
