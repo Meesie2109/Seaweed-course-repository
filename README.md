@@ -1,1 +1,0 @@
-# Seaweed-course-repository
